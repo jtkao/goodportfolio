@@ -1,0 +1,50 @@
+#homebox {
+	background-color: lightpink;
+}
+
+#bannerbox {
+	height: 200px;
+	background-color: lightgreen;
+}
+
+#mainbox {
+	background-color: lightpink;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.footer {
+	text-align: center;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	/* Set the fixed height of the footer here */
+  	height: 20px;
+  	background-color: lightgrey;
+  	color: black;
+}
+
+.mynav {
+	width: 30%;
+	margin-top: 15px;
+}
+
+#navbox {
+	text-align: center;
+}
+
+#headerlogo {
+	background-color: bisque;
+	height: 63.75px;
+}
+
+#homelogo {
+	margin-top: 20px;
+	background-color: bisque;
+	text-align: center;
+	margin-bottom: 20px
+}
+
+#contentbox {
+	height: 450px;
+}
