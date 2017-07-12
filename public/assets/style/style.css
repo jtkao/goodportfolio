@@ -1,14 +1,27 @@
+#body {
+		background-color: mediumturquoise;
+
+}
 #homebox {
-	background-color: lightpink;
+	background-color: mediumturquoise;
 }
 
+#mebox {
+	float: left;
+	padding-right: 15px;
+}
 #bannerbox {
 	height: 200px;
-	background-color: lightgreen;
+	background: linear-gradient(to top, mediumturquoise, lightsteelblue);
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+	font-size: 25px;
 }
 
 #mainbox {
-	background-color: lightpink;
+	background-color: lightsteelblue;
+	padding-top: 5px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
@@ -19,9 +32,9 @@
   	bottom: 0;
   	width: 100%;
   	/* Set the fixed height of the footer here */
-  	height: 20px;
-  	background-color: lightgrey;
-  	color: black;
+  	height: 30px;
+  	background-color: white;
+  	color: purple;
 }
 
 .mynav {
@@ -34,17 +47,41 @@
 }
 
 #headerlogo {
-	background-color: bisque;
+	background-color: red;
 	height: 63.75px;
 }
 
 #homelogo {
-	margin-top: 20px;
-	background-color: bisque;
+	background-color: plum;
 	text-align: center;
 	margin-bottom: 20px
 }
 
-#contentbox {
+#aboutbox {
+	padding: 20px
+}
+
+#routerbox {
 	height: 450px;
+	overflow: auto;
+	padding:5px;
+}
+
+.pboxx {
+}
+
+.pimgbox {
+	float:left;
+	height: 100px;
+	background-color: black;
+	margin-right: 20px;
+}
+
+#socialbox {
+	text-align: center;
+}
+
+.biotext {
+	font-size: 20px;
+	font-style: georgia;
 }
