@@ -67,13 +67,10 @@ body {
 	padding:5px;
 }
 
-.pboxx {
-}
-
 .pimgbox {
-	float:left;
-	height: auto;
-	margin-right: 20px;
+	float: left;
+	height: 100px;
+	width: 30%;
 }
 
 #socialbox {
@@ -83,4 +80,8 @@ body {
 .biotext {
 	font-size: 15px;
 	font-style: georgia;
+}
+
+li.portitem {
+	border: 0 none;
 }
