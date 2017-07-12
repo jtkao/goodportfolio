@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
   host: "us-cdbr-iron-east-03.cleardb.net",
   user: "bae7fed3021368",
   password: "c61ae4a0",
-  database: "heroku_e39804d225c9779 ",
+  database: "heroku_e39804d225c9779",
   connectionLimit: 5
 });
 
