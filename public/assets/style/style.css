@@ -11,7 +11,7 @@
 	padding-right: 15px;
 }
 #bannerbox {
-	height: 150px;
+	height: 140px;
 	background: linear-gradient(to top, mediumturquoise, lightsteelblue);
 	text-align: center;
 	padding-top: 80px;
@@ -62,7 +62,7 @@
 }
 
 #routerbox {
-	height: 380px;
+	height: 350px;
 	overflow: auto;
 	padding:5px;
 }
