@@ -1,4 +1,4 @@
-body {
+html {
 		background-color: mediumturquoise;
 
 }
@@ -11,7 +11,7 @@ body {
 	padding-right: 15px;
 }
 #bannerbox {
-	height: 140px;
+	height: 100px;
 	background: linear-gradient(to top, mediumturquoise, lightsteelblue);
 	text-align: center;
 	padding-top: 80px;
@@ -33,7 +33,7 @@ body {
   	width: 100%;
   	/* Set the fixed height of the footer here */
   	height: 30px;
-  	background-color: white;
+  	background-color: ghostwhite;
   	color: purple;
 }
 
@@ -54,12 +54,11 @@ body {
 }
 
 #homelogo {
-	background-color: lightgreen;
+	background-color: darkslateblue;
 	border: 2px solid aquamarine;
 	text-align: center;
 	margin-bottom: 20px;
 	color: white;
-	font-weight: bold;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
@@ -69,7 +68,7 @@ body {
 }
 
 #routerbox {
-	height: 350px;
+	height: 400px;
 	overflow: auto;
 	padding:5px;
 }
@@ -95,4 +94,22 @@ li.portitem {
 
 #portfoliobox {
 	padding-top: 10px;
+}
+
+#ctcname, #ctcemail {
+	height: 30px;
+}
+
+#ctcmsg {
+	height: 100px;
+	overflow: auto;
+}
+
+#hollerbtn {
+	background-color: red;
+	color: white;
+}
+
+#hollerbtn:hover{
+	background-color: green;
 }
