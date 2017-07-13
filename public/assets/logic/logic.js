@@ -46,6 +46,12 @@ $(document).ready(() => {
             url: "/message",
             method: 'POST',
             data: holler
+        }).then(()=>{
+        	$("#ctcname").val("")
+        	$("#ctcemail").val("")
+        	$("#ctcmsg").val("")
+
+    		alert("Talk to you soon!")
         })
 	})
 })
