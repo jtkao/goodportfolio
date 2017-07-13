@@ -35,6 +35,7 @@ html {
   	height: 30px;
   	background-color: ghostwhite;
   	color: purple;
+  	padding-top: 5px;
 }
 
 .mynav {
@@ -124,5 +125,4 @@ textarea {
     height: 100px;
     resize: none;
     border-radius: 7px;
-
 }
