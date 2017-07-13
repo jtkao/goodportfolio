@@ -51,7 +51,9 @@ $(document).ready(() => {
         	$("#ctcemail").val("")
         	$("#ctcmsg").val("")
 
-    		alert("Talk to you soon!")
+    		$("#contactbox").hide();
+    		$("#aboutbox").show();
+    		$("#homelogo").html("thanks for reaching out, " + name + "! talk to you soon.")
         })
 	})
 })
