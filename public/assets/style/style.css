@@ -118,3 +118,8 @@ li.portitem {
 #hollerbtn:hover{
 	background-color: green;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
