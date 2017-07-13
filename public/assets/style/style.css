@@ -1,7 +1,7 @@
 html {
-		background-color: mediumturquoise;
-
+	background-color: mediumturquoise;
 }
+
 #homebox {
 	background-color: mediumturquoise;
 }
@@ -105,11 +105,6 @@ li.portitem {
 	height: 30px;
 }
 
-#ctcmsg {
-	height: 100px;
-	overflow: auto;
-}
-
 #hollerbtn {
 	background-color: red;
 	color: white;
@@ -122,4 +117,12 @@ li.portitem {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 7px;
+
 }
