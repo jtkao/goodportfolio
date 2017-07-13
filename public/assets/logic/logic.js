@@ -1,4 +1,5 @@
 $(document).ready(() => {
+	// navigation
 	$("#portfoliobox").hide();
 	$("#contactbox").hide();
 
@@ -26,12 +27,25 @@ $(document).ready(() => {
 		$("#homelogo").html("connect with me.");
 	})
 
+	// message
 	$("#ctcform").on("submit", (event)=> {
 		event.preventDefault();
 		var name = $("#ctcname").val().trim();
 		var email = $("#ctcemail").val().trim();
 		var msg = $("#ctcmsg").val().trim();
 
+		var holler = {
+			"name": name,
+			"email": email,
+			"msg": msg
+		}
+
 		console.log(name,email,msg)
+
+		$.ajax({
+            url: "/message",
+            method: 'POST',
+            data: holler
+        })
 	})
 })
